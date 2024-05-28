@@ -59,8 +59,8 @@ int main(int argc, char* args[]) {
         }
 
         for (int i = 1; i < toFind.size(); i++) {
-            if (inputString.substr(lastFind + lastFindLength, 1) == toFind[i]) {
-                lastFindLength++;
+            if (inputString.substr(lastFind + lastFindLength, toFind[i].length()) == toFind[i]) {
+                lastFindLength += toFind[i].length();
             } else {
                 break;
             }
