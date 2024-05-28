@@ -15,6 +15,7 @@ Sample of Pi not provided; log files from running the program on various differe
 #### 0123456789 can be found in one place:
 - Digits: 17387594882-17387594891
 #### Note: these digit ranges are inclusive and offset in two ways. The first digit is considered to be digit 1 rather than digit 0, and the decimal point is counted as a digit. For instance, if you wanted to fetch these results from Google's Pi fetching API, you should subtract 2, as the API considers the first digit to be digit 0 and does not include the decimal point as a digit.
+#### Note: findings of less than perfect matches can be found in the provided output files. To verify results with the Google API, subtract 2 from the starting digit for the reasons outlined above.
 
 ### The findings proven using Google's Pi request API:
 - 1234567890 #1: https://api.pi.delivery/v1/pi?start=7997135197&numberOfDigits=10
