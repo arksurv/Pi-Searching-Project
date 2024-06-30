@@ -21,6 +21,7 @@ int main(int argc, char* args[]) {
         return 2;
     }
 
+    // stolen from https://en.cppreference.com/w/cpp/io/basic_istream/read
     unsigned long long size = input.tellg();
     string inputString(size, '\0');
     input.seekg(0);
