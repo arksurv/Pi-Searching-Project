@@ -23,7 +23,7 @@ Sample of Pi not provided; log files from running the program on various differe
 - 0123456789 #1: https://api.pi.delivery/v1/pi?start=17387594880&numberOfDigits=10
 
 ### Crediting:
-If you use my program or findings in any way, please link back to this repository if possible. You may modify the program in any way you wish and even publish your own modified version as long as it is freely available and provides a link or citation back to this repository.
+I would appreciate if any direct derivatives of this program linked back to here in some way.
 
 ### Final Note:
 I don't believe I will be searching much further than 25 billion digits given my current computational power (only my own PC) and my available storage space (only willing to use around 100GB, and only temporarily). If you would like to use this hacked together program to search further, or to search for some other string of digits, please do so! Please also feel free to inform me of your results (perhaps in an issue, or in a pull request that modifies this README to include your results).
